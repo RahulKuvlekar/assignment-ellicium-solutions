@@ -77,3 +77,27 @@
     @apply bg-background text-foreground;
   }
 }
+
+.main__screen {
+  height: calc(100vh - 72px);
+  overflow: auto;
+}
+
+/* Custom Scrollbar */
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  display: contents;
+}
+.custom-scrollbar {
+  -ms-overflow-style: unset; /* IE and Edge */
+  scrollbar-width: 5px; /* Firefox */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #525252;
+}
