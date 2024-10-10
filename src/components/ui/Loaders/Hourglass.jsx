@@ -9,6 +9,7 @@ const Hourglass = ({ size = 40 }) => {
         width: size,
         height: size,
       }}
+      className="mx-auto"
     />
   );
 };

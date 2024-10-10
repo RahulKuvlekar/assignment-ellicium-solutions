@@ -82,6 +82,11 @@
   height: calc(100vh - 72px);
   overflow: auto;
 }
+@media all and (max-width: 768px) {
+  .main__screen {
+    height: calc(100vh - 116px);
+  }
+}
 
 /* Custom Scrollbar */
 

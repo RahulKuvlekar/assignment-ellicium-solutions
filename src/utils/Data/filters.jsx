@@ -3,8 +3,8 @@ import { v4 as uuid } from "uuid";
 export const SortByFilter = [
   { name: "Alphabetically (A-Z)", value: "A-Z", id: uuid() },
   { name: "Alphabetically (Z-A)", value: "Z-A", id: uuid() },
-  { name: "Price (Low to High)", value: "Low to High", id: uuid() },
-  { name: "Price (High to Low)", value: "High to Low", id: uuid() },
+  { name: "Price (Low to High)", value: "Low-High", id: uuid() },
+  { name: "Price (High to Low)", value: "High-Low", id: uuid() },
 ];
 
 export const CategoryFilter = [
