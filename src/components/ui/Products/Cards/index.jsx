@@ -138,7 +138,7 @@ const ProductCard = (props) => {
   return (
     <Card className="w-[260px] flex flex-col items-center relative justify-self-center md:justify-self-start">
       <CardHeader>
-        <Link to="/products/details/1">
+        <Link to={`/products/details/${id}`}>
           <img
             className="w-[150px] h-[200px] object-center object-contain"
             src={image ?? FALLBACK_IMAGE_URL}
