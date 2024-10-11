@@ -110,7 +110,7 @@ const ProductDetail = () => {
   }, [productId]);
 
   return (
-    <div className="flex flex-row items-center justify-center h-full">
+    <div className="flex flex-row items-center justify-center">
       {(() => {
         if (status === "LOADING") {
           return <ProductDetailsLoader />;
